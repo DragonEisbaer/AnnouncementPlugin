@@ -1,0 +1,11 @@
+name: AnnouncementPlugin
+version: '${project.version}'
+main: me.dragoneisbaer.announcementplugin.AnnouncementPlugin
+api-version: 1.19
+authors: [ DragonEisbaer ]
+description: Sends Announcements.
+commands:
+  bc:
+    aliases:
+      - broadcast
+    usage: /<command> <message>
